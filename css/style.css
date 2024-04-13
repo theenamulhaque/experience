@@ -1,0 +1,1621 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+	font-family: sans-serif;
+	font-weight: 14px;
+	line-height: 24px;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Ubuntu', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.tesimonials-section .web{
+    display: block;
+}
+.tesimonials-section .responsive{
+    display: none;
+}
+/*********************************************
+         header section code start
+*********************************************/
+.header-section {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.bg-light {
+    background-color: #f8f9fa!important;
+    margin: 0px -128px;
+}
+.header-section img {
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 40px;
+    padding: 0px;
+}
+.header-section .navbar-nav .nav-item .nav-link {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #141311;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 30px;
+    transition: .5s;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid  transparent;
+}
+.header-section .navbar-nav .nav-item .nav-link:hover{
+	color: #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.header-section .btn {
+    padding: 12px 30px;
+    background: #fff;
+   border: 1px solid #a2a2a2;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 40px;
+    color: #141311;
+    transition: 1s;
+}
+.header-section .btn:hover{
+	background-color: #ebeced;
+}
+/*********************************************
+         header section code end         
+*********************************************/
+
+/*********************************************
+         banner section code start      
+*********************************************/
+.banner{
+    width: 100%;
+    padding: 230px 0px 560px 0px;
+    background: url(../images/banner-bd.png) center top no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+.banner .text h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.banner .text .btn {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 12px 60px;
+    background: #fff;
+    border: 1px solid #a2a2a2;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 62px;
+    color: #141311;
+    transition: 1s;
+}
+.banner .text .btn:hover{
+	background-color: #ebeced;
+}
+/*********************************************
+         banner section code end      
+*********************************************/
+
+/*********************************************
+         Rectangle section code start      
+*********************************************/
+.Rectangle {
+    width: 100%;
+    padding: 80px 0px 70px 0px;
+    background: #fff;
+}
+.Rectangle img {
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 0px;
+    padding: 0px;
+}
+.Rectangle .Rectangle-title h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #141311;
+    margin-bottom: 20px;
+}
+.Rectangle .Rectangle-item h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #5c5c5c;
+    margin-left: 26px;
+    margin-top: 26px;
+ margin-bottom: 6px;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0px;
+}
+.Rectangle .Rectangle-item .card-text{
+    font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	color: #000;
+	margin-left: 28px;
+/*********************************************
+         Rectangle section code end      
+*********************************************/
+
+/*********************************************
+         about section code start      
+*********************************************/
+}
+.bacground-color{
+	color: #fff;
+}
+.about-section .col-md-4{
+    margin: 0px;
+    padding: 0px;
+}
+.about-section .col-md-8{
+    margin: 0px;
+    padding: 0px;
+}
+.about-section img {
+    width: 102%;
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 0px;
+    padding: 0px;
+}
+.about-section .about-caption {
+    width: 100%;
+    background: #f8f8f8;
+    padding: 83px 57px;
+}
+.about-section .about-caption-color {
+    width: 100%;
+    background: #fff;
+    padding: 91px 57px;
+}
+.about-section .about-caption .bar{
+    height: 2px;
+    width: 35px;
+    background: #42413f;
+    margin-bottom: 15px;
+}
+.about-section .about-caption-2 {
+    width: 100%;
+    padding: 57px 57px;
+}
+.about-section h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #42413f;
+}
+.about-section h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.about-section .about-col-last h2 {
+    color: #fff;
+}
+.about-section p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #42413f;
+}
+.about-section .about-col-last p{
+    color: #fff;
+}
+.about-section .col-md-8{
+    background: url(../images/Rectcup.png) center top no-repeat;
+    background-size: cover;
+    margin-top: -32px;
+}
+.about-section .about-col-last{
+    background: url(../images/Rectdwnblack.png) center top no-repeat;
+    background-size: cover;
+}
+/*********************************************
+         about section code end      
+*********************************************/
+
+/*********************************************
+         projrct section code end      
+*********************************************/
+.project-section{
+	width: 100%;
+	padding: 80px 0px 70px 0px;
+	background-color: #fff;
+}
+.project-section .project-left {
+    padding: 230px 0px;
+    margin-left: -15px;
+    margin-top: 25px;
+    background: url(../images/bg.png) center top no-repeat;
+    background-size: 100%;
+}
+.project-section img {
+    vertical-align: middle;
+    border-style: none;
+    padding-top: -24px;
+    margin: -14px 0px 0px 0px;
+}
+.project-section .project-right .project-caption h2 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #42413f;
+    margin-bottom: 25px;
+    margin-left: 33px;
+}
+.project-section .project-right .project-caption p {
+    font-family: 14px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 25px;
+    font-size: 16px;
+    margin-left: 33px;
+}
+
+.project-section .project-right .media h5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #333333;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.project-right .media p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+}
+.project-section .btn-info {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 12px 60px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 62px;
+    color: #141311;
+    transition: 1s;
+}
+.btn-info:hover{
+	background-color: #ebeced;
+}
+/*********************************************
+         price section code end      
+*********************************************/
+.price-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../images/Stats.png) center top no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+.price-section .price-menu{
+    padding: 0px 0px;
+    border-right: 1px solid #252525;
+    margin-top: 50px;
+}
+.price-section .price-last{
+    border-right: 0px solid transparent;
+}
+.price-caption h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+.price-section .price-menu h1 {
+    font-size: 80px;
+    margin-top: 40px;
+    font-weight: 300;
+    color: #c89d28;
+    margin-bottom: 25px;
+ }
+ .price-section .price-menu h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #e8e8e8;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.price-section .price-menu p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #878787;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.price-section .price-menu sup {
+    font-size: 22px;
+}
+.price-section .btn-info {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 12px 60px;
+    background: #fff;
+    border: 1px solid  #fff;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 62px;
+    color: #000;
+    transition: 1s;
+    margin-right: 50px;
+}
+.price-section .btn-info .text-uppercase{
+        font-family: 'Ubuntu', sans-serif;
+        padding: 2px 60px;
+        background: #fff;
+        border: 1px solid  #fff;
+        border-radius: 50px;
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 62px;
+        color: #000;
+        transition: 1s;
+        margin-right: 50px;
+    }
+.btn-info:hover{
+	background-color: #ebeced;
+}
+/*********************************************
+         price section code end      
+*********************************************/
+
+/*********************************************
+         news section code start      
+*********************************************/
+.news-section{
+	width: 100%;
+	padding: 80px 0px;
+	background-color: #e8e9ea;
+}
+.news-section .news-caption h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+.news-section .main-news {
+    background: url(../images/Membershipbg.png) center top no-repeat;
+    background-size: 100%;
+    padding: 50% 0%;
+}
+.news-section .main-news h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+    color: #fff;
+}
+.news-section .card {
+    display: inline-block;
+    width: 49%;
+    padding: 0px 20px 10px 0px;
+    background: transparent;
+    border: none;
+}
+.news-section .card .card-body p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    padding: 8px 0px;
+    color: #333333;
+    font-weight: 400;
+}
+.news-section .btn-info {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 12px 60px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 62px;
+    color: #141311;
+    transition: 1s;
+}
+.btn-info:hover{
+	background-color: #ebeced;
+}
+
+/*********************************************
+         news section code end      
+*********************************************/
+
+/*********************************************
+       project-2-section code start      
+*********************************************/
+.project-2-section{
+	width: 100%;
+	padding: 90px 0px;
+	background-color: #fff;
+}
+.project-2-section .main-project-2 h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 70px;
+    margin-bottom: -10px;
+    color: #333333;
+    margin-left: 47px;
+}
+.project-2-section .main-project-2 p{
+    font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #333333;
+    margin-left: 52px;
+}
+.project-2-section .media .media-body h5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+    margin-top: 17px;
+}
+.project-2-section .media .media-body p{
+    font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #333333;
+    margin-top: 24px;
+    padding-bottom: 20px;
+}
+.project-2-section .project-2-content .media img{
+    vertical-align: middle;
+    border-style: none;
+    margin-right: 24px;
+    margin-top: 26px;
+}
+/*********************************************
+         project-2-section code end      
+*********************************************/
+
+/*********************************************
+           fact section code start      
+*********************************************/
+.fact-section{
+	width: 100%;
+	padding: 80px 0px 60px 0px;
+	background: url(../images/Stats.png) center top no-repeat;
+	background-size: 100%;
+}
+.fact-section .fact-caption h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 70px;
+}
+.fact-section .fact-item span {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 80px;
+    color: #c89d28;
+    font-weight: 200;
+    margin-bottom: 35px;
+}
+.fact-section .heading{
+    display: inline-block;
+}
+.fact-section .fact-item p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #d6d6d6;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.fact-section .fact-text p{
+    font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+    color: #7f7f7f;
+	margin-top: 80px;
+   line-height: 32px;
+}
+/*********************************************
+           fact section code end      
+*********************************************/
+
+/*********************************************
+         tesimonials section code start      
+*********************************************/
+.tesimonials-section {
+    width: 100%;
+    padding: 80px 0px;
+    background: #ffffff;
+}
+.tesimonials-section .testimonial-caption p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+.tesimonials-section .testimonial-title img {
+    width: 6%;
+    display: inline-block;
+    margin: 0px 50px 50px 50px;
+}
+.tesimonials-section .testimonial-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #5c5c5c;
+    margin-bottom: 50px;
+}
+.tesimonials-section .testimonial-client h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+    margin-right: 235px;
+}
+.tesimonials-section .testimonial-client p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #999999;
+    font-weight: 400;
+    margin-right: 288px;
+}
+/*********************************************
+         tesimonials section code end      
+*********************************************/
+
+/*********************************************
+          Get section code start      
+*********************************************/
+.Get-section{
+	width: 100%;
+	padding: 80px 0px 100px 0px;
+	background: url(../images/Gettouch.png) center top no-repeat;
+	background-size: cover;
+}
+.Get-section .Get-title h2{
+    font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	color: #ffffff;
+}
+.Get-section .Get-title p{
+    font-family: 'Ubuntu', sans-serif;
+	font-size: 19px;
+	font-weight: 300;
+	color: #c5c5c4;
+	margin-top: 15px;
+}
+.Get-section .btn-info {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 12px 60px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 0px;
+    color: #141311;
+    transition: 1s;
+}
+.btn-info:hover{
+	background-color: #ebeced;
+}
+
+/*********************************************
+           Get section code end      
+*********************************************/
+
+/*********************************************
+           Footer section code start     
+*********************************************/
+.footer-section {
+    width: 100%;
+    padding: 80px 0px 60px 0px;
+    background: #0d0d0d;
+}
+.footer-section .footer-left h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.footer-section .footer-left p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: #888888;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.footer-section .social-icons .icons-title {
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.footer-section .social-icons .icons-title img{
+    width:100%;
+}
+.footer-section .social-icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+.footer-section .social-icons .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.footer-section .social-icons ul li a i {
+    font-size: 16px;
+    color: #888888;
+    transition: 1s;
+}
+.footer-section .social-icons .icons-title {
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 24px;
+}
+.footer-section .item {
+    display: inline-block;
+    margin: 0px 43px 0px 43px;
+}
+.footer-section .item h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.footer-section .item li {
+    list-style: none;
+    margin: 7px 0px;
+}
+.footer-section .item li a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: #888888;
+    transition: 1s;
+}
+.footer-section .divider {
+    height: 1px;
+    width: 100%;
+    background: #1d1d1d;
+    margin-top: 80px;
+}
+.footer-section .footer-p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #888888;
+    letter-spacing: 2px;
+    padding: 80px 0px 0px 0px;
+}
+.footer-section a {
+    font-weight: 400;
+    color: #8d7431;
+}
+
+/*plugin code goes here*/
+
+/*stickup css code start*/
+
+.isStuck{
+    left:0px;
+    width:100%;
+    background: #f5f7fa;
+}
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 15;
+  width: 100%;
+}
+/*stickup css code end*/
+
+/* back to top css code start*/
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #C89D28;
+    display: block;
+    padding: 4px 8px;
+}
+/* back to top css code end*/
+
+/*********************************************
+           Footer section code end      
+*********************************************/
+
+/*********************************************
+         For tab view code start     
+*********************************************/
+@media (min-width: 768px) and (max-width: 1024px){
+    
+    .header-section {
+        background-color: #f8f9fa!important;
+    }
+    .header-section .navbar-brand {
+        margin-left: -40px;
+    }
+    .header-section .btn {
+        margin-left: -70px;
+    }
+    .bg-light {
+        background-color: #f8f9fa!important;
+        margin: 0px 0px;
+    }
+    .navbar-collapse {
+
+        margin: 30px 0px 30px 40px;
+    }
+    .header-section .navbar-nav .nav-item .nav-link {
+        padding: 10px 0px;
+        margin-left: -36px;
+    }
+    .banner {
+        padding: 115px 0px 280px 0px;
+    }
+    .banner .text .btn {
+        margin-left: 8px;
+    }
+    .Rectangle .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+        .Rectangle .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .Rectangle .Rectangle-item{
+        margin: 20px 0px;
+    }
+    .about-section img{
+        width: 109%;
+    }
+    .about-section .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .about-section .about-caption {
+    padding: 73px 31px;
+    }
+    .about-section .col-md-8 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .about-section .about-caption-2 {
+        width: 100%;
+        padding: 57px 31px;
+    }
+    .project-section .project-caption{
+        text-align: center;
+    }
+    .project-section .project-right .project-caption h2 {
+        margin-top: 40px;
+    }
+     .project-section .col-md-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .project-section .col-md-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 100%;
+        max-width: 109%;
+    }
+    .project-section .media{
+        margin-top: 40px;
+    }
+    .price-section {
+        padding: 50px 0px;
+    }
+    .price-section .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .price-section .btn-info {
+        padding: 12px 52px;
+    }
+    .price-section .price-col-last {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .price-section .price-menu h1 {
+        margin-top: -57px;
+    }
+    .price-caption h2 {
+        margin-bottom: -70px;
+    }
+    .price-section .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 60px;
+    }
+    .news-section {
+        padding: 50px 0px;
+    }
+    .news-section .main-news {
+        margin-bottom: -21px;
+    }
+    .news-section .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .news-section .card {
+        padding: 0px 0px 30px 15px;
+    }
+    .news-section .card .card-body p {
+        padding: 18px 0px 0px 0px;
+    }
+    .news-section .btn-info{
+        margin-left: 10px;
+    }
+    .project-2-section {
+        padding: 41px 0px 0px 0px;
+    }
+    .project-2-section .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .media {
+      
+        margin: 30px 0px;
+    }
+    .project-2-section .pro-col {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 45%;
+        max-width: 45%;
+        margin: 0px 19px;
+    }
+    .fact-section {
+        padding: 60px 0px 40px 0px;
+    }
+    .fact-section .fact-caption h2{
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .fact-section .fact-text p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .fact-section .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin: 30px 0px;
+    } 
+     .fact-section {
+        background-size: cover;
+     }
+     .tesimonials-section {
+        padding: 50px 0px 40px 0px;
+    }
+    .tesimonials-section .testimonial-title {
+        margin-bottom: 0px;
+        margin-top: -15px;
+    }
+    .tesimonials-section .testimonial-title img {
+        width: 12%;
+    }
+    .tesimonials-section .testimonial-client h4 {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .tesimonials-section .testimonial-client p{
+        margin-right: 0px;
+    }
+    .Get-section {
+        padding: 80px 0px 80px 0px;
+    }
+    .footer-section {
+        padding: 50px 0px 0px 0px;
+    }
+    .footer-section .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .footer-section .item h4 {
+        margin-top: 30px;
+    }
+    .footer-section .footer-left p {
+        margin-bottom: 32px;
+    }
+    .footer-section .social-media{
+        margin-bottom: 30px;
+    }
+    .footer-section .item {
+        margin: 0px 60px 0px 60px;
+    }
+    .footer-section .divider {
+        margin-top: 50px;
+    }
+    .footer-section .footer-p {
+        text-align: center !important;
+        width: 100%;
+    }
+    .footer-section .footer-p {
+        padding: 35px 0px 0px 0px;
+        margin-left: -225px;
+        margin-bottom: 35px;
+    }
+}
+/*********************************************
+         For tab view code end     
+*********************************************/
+
+/*********************************************
+         For mobile view code start     
+*********************************************/               
+@media (min-width: 481px) and (max-width: 767px){ 
+    
+    .header-section {
+        background-color: #f8f9fa!important;
+    }
+    .header-section .navbar-brand {
+        margin-left: -40px;
+    }
+    .bg-light {
+        background-color: #f8f9fa!important;
+        margin: 0px 0px;
+    }
+    .navbar-collapse {
+
+        margin: 30px 0px 30px 40px;
+    }
+    .header-section .navbar-nav .nav-item .nav-link {
+        padding: 10px 0px;
+        margin-left: -35px;
+    }
+    .header-section .btn {
+        padding: 12px 22px;
+        margin-left: -60px;
+    }
+    .banner {
+    padding: 150px 0px 150px 0px;
+    }
+    .banner .text{
+        margin-top: 100px;
+    }
+    .banner .text .btn {
+        margin-left: 129px; 
+    }
+    .Rectangle {
+        padding: 30px 0px 70px 0px;
+    }
+    .Rectangle .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .Rectangle .Rectangle-item{
+        margin: 20px 0px;
+    }
+    .about-section .about-caption {
+        margin-top: -55px;
+    }
+    .about-section .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about-section .about-caption {
+        padding: 56px 31px;
+    }
+    .about-section .col-md-8 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .about-section .col-md-8 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about-section .about-caption-2 {
+        width: 100%;
+        padding: 57px 31px;
+    }
+    .project-section {  
+        padding: 15px 0px 45px 0px;  
+    }
+    .project-section .project-right .project-caption p { 
+        margin-bottom: 70px;
+    }
+    .project-section .project-content .media {
+        margin-top: -48px;
+    }
+    .about-section .about-caption {
+        background: #f8f8f8;
+    }
+    .about-section .about-caption-color{
+        background-color: #fff;
+    }
+    .project-section .project-caption{
+        text-align: center;
+        margin-top: -160px;
+    }
+     .project-section .col-md-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .price-section {
+        padding: 60px 0px;
+    }
+    .price-section .price-menu h1 {
+        margin-right: 20px;
+    }
+    .price-caption h2 {
+        margin-top: -20px;
+    }
+    .price-section .price-menu {
+        margin-top: 0px;
+    }
+    .project-section .col-md-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 100%;
+        max-width: 109%;
+    }
+    .project-section .btn-info{
+        margin-left: 125px;
+    }
+    .project-section .media{
+        margin-top: 40px;
+    }
+    .price-section .price-menu h1 {
+        margin-top: -35px;
+    }
+    .price-section .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .price-section .btn-info {
+        padding: 12px 52px;
+    }
+    .price-section .btn-info{
+        margin-left: 50px;
+    }
+    .price-section .price-col-last {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .news-section .card .card-body p {    
+        padding: 25px 0px 0px 0px;     
+    }
+    .news-section .main-news{
+        margin-top: -22px;
+    }
+    .news-section .main-news {
+        margin-bottom: -50px;
+    }
+    .news-section {
+        padding: 40px 0px;
+    }
+    .news-section .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .news-section .card {
+        padding: 0px 0px 30px 15px;
+    }
+    .news-section .btn-info{
+        margin-left: 10px;
+    }
+    .project-2-section .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .media {
+      
+        margin: 30px 0px;
+    }
+    .project-2-section .main-project-2 h4 {
+        margin-left: 5px;
+    }
+    .project-2-section .media .media-body h5 {
+        margin-top: -8px;
+    }
+     .project-2-section .media .media-body p{
+          margin-top: 0px;
+     }
+    .project-2-section .main-project-2 p {
+        margin-left: 8px;
+    }
+    .project-2-section .main-project-2 p {
+        margin-bottom: 40px;
+    }
+    .project-2-section {
+        padding: 20px 0px;
+    }
+    .project-2-section .pro-col {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 0px 50px;
+    }
+    .project-2-section .pro-col .media { 
+        margin: 0px 0px;
+    }
+    .fact-section .fact-item h1 {
+        margin-bottom: 4px;
+        margin-top: -35px;
+    }
+    .fact-section .fact-caption h2{
+        margin-bottom: 50px;
+    }
+    .fact-section .fact-text p {
+        margin-top: 0px;
+        font-size: 16px;
+    }
+    .fact-section .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin: 30px 0px;
+    }
+     .fact-section {
+        background-size: cover;
+     }
+     .tesimonials-section {
+        padding: 40px 0px;
+    }
+     .tesimonials-section .testimonial-title img {
+        width: 16%;
+    }
+    .tesimonials-section .testimonial-client h4 {
+        margin-right: 0px;
+    }
+    .tesimonials-section .testimonial-client p{
+        margin-right: 0px;
+    }
+    .tesimonials-section .testimonial-title{
+        margin-top: -25px;
+        margin-bottom: 0px;
+    }
+    .Get-section {
+        padding: 40px 0px 40px 0px;
+    }
+    .Get-section .btn-info {
+        margin-left: 0px;
+    }
+    .footer-section {
+        padding: 40px 0px 0px 0px;
+    }
+    .footer-section .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-left: 25px;
+    }
+    .footer-section .social-media{
+        margin-bottom: 30px;
+    }
+    .footer-section .social-icons ul{
+        margin-left: -20px;
+    }
+    .footer-section .footer-left h2 {
+        margin-left: -58px;
+    }
+    .footer-section .item {
+        margin: 0px 60px 0px 60px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+    .footer-section .footer-p {
+        text-align: center !important;
+        width: 100%;
+    }
+    .footer-section .item {
+        margin-left: -2px;
+    }
+    .footer-section .footer-p {
+        margin-top: 0px;
+        margin-left: -80px;
+    }
+    .footer-section .footer-left p {
+        margin-left: -50px;
+    }
+    .footer-section .divider {
+        margin-top: 30px;
+    }
+    .tesimonials-section .web{
+        display: none;
+    }
+    .tesimonials-section .responsive{
+        display: block;
+    }
+}
+/*********************************************
+         For mobile view code end     
+*********************************************/   
+
+@media (min-width: 320px) and (max-width: 480px){ 
+    
+    .header-section {
+        background-color: #f8f9fa!important;
+    }
+    .header-section .navbar-brand {
+        margin-left: -40px;
+    }
+    .bg-light {
+        background-color: #f8f9fa!important;
+        margin: 0px 0px;
+    }
+    .navbar-collapse {
+
+        margin: 30px 0px 30px 40px;
+    }
+    .header-section .navbar-nav .nav-item .nav-link {
+        padding: 10px 0px;
+    }
+    .header-section .navbar-nav .nav-item .nav-link {
+        margin-left: -40px;
+    }
+    .header-section .btn {
+        padding: 10px 22px;
+        font-size: 12px;
+        margin-left: -66px;
+    }
+    .banner {
+        padding: 100px 0px 100px 0px;
+    }
+    .banner .text{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .banner .text .btn {
+        margin-left:0px; 
+    }
+    .Rectangle {
+        padding: 30px 0px 70px 0px;
+    }
+    .Rectangle .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .Rectangle .Rectangle-item{
+        margin: 20px 0px;
+    }
+    .Rectangle .Rectangle-title h4 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .about-section .about-caption {
+        margin-top: -55px;
+    }
+    .about-section .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about-section .about-caption {
+        padding: 56px 31px;
+    }
+    .about-section p {
+        font-size: 16px;
+    }
+    .about-section .col-md-8 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .about-section .col-md-8 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about-section .about-caption-2 {
+        width: 100%;
+        padding: 57px 31px;
+    }
+    .project-section {  
+        padding: 15px 0px 45px 0px;  
+    }
+    .project-section .project-caption {
+        margin-top: -250px;
+        text-align: center;
+    }
+     .project-section .project-right .project-caption h2 {
+       
+        margin-left: 0px;
+    }
+    .project-section .project-right .project-caption p { 
+        margin-bottom: 70px;
+        margin-left: 0px;
+    }
+    .project-section .project-content .media {
+        margin-top: -48px;
+    }
+    .project-section .btn-info {
+        padding: 2px 60px;    
+    }
+    .about-section .about-caption {
+        background: #f8f8f8;
+    }
+    .about-section .about-caption-color{
+        background-color: #fff;
+    }
+     .project-section .col-md-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .price-section {
+        padding: 60px 0px;
+    }
+    .price-section .price-menu {
+        border-right: 1px solid transparent;
+      
+    }
+    .price-section .price-menu h1 {
+        margin-right: 20px;
+    }
+    .price-caption h2 {
+        margin-top: -20px;
+    }
+    .price-section .price-menu {
+        margin-top: 0px;
+    }
+    .project-section .col-md-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 100%;
+        max-width: 109%;
+    }
+    .project-section .btn-info{
+        margin-left: 125px;
+    }
+    .price-section .btn-info {
+        padding: 8px 18px;
+        margin-top: -50px;
+    }
+    .project-section .btn-info {  
+        background: #EBECEE;
+        border: 1px solid #EBECEE;
+        font-size: 12px;
+        font-weight: 500;
+        margin-right: 10px;
+    }
+    .project-section .media{
+        margin-top: 40px;
+    }
+    .price-section .price-menu h1 {
+        margin-top: -35px;
+    }
+    .price-section .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .price-section .price-col-last {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .news-section .card .card-body p {    
+        padding: 25px 0px 0px 0px;     
+    }
+    .news-section .main-news{
+        margin-top: -22px;
+    }
+    .news-section .main-news h2 {
+        margin-top: -60px;
+    }
+    .news-section .main-news {
+        margin-bottom: -50px;
+    }
+    .news-section {
+        padding: 40px 0px;
+    }
+    .news-section .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .news-section .card {
+        padding: 0px 0px 30px 15px;
+    }
+    .news-section .btn-info{
+        margin-left: 10px;
+    }
+    .project-2-section .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .media {
+      
+        margin: 30px 0px;
+    }
+    .project-2-section .main-project-2 h4 {
+        margin-left: 5px;
+    }
+    .project-2-section .media .media-body h5 {
+        margin-top: -8px;
+    }
+     .project-2-section .media .media-body p{
+          margin-top: 0px;
+     }
+    .project-2-section .main-project-2 p {
+        margin-left: 8px;
+    }
+    .project-2-section .main-project-2 p {
+        margin-bottom: 40px;
+    }
+    .project-2-section {
+        padding: 20px 0px;
+    }
+    .project-2-section .pro-col {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 0px 4px;
+    }
+    .project-2-section .pro-col .media { 
+        margin: 0px 0px;
+    }
+     .fact-section{
+        padding: 40px 0px 40px 0px;
+     }
+    .fact-section .fact-item h1 {
+        margin-bottom: 4px;
+        margin-top: -35px;
+        font-size: 50px;
+    }
+    .fact-section .fact-item span {
+        font-size: 50px;
+    }
+    .fact-section .fact-caption h2{
+        margin-bottom: 50px;
+    }
+    .fact-section .fact-text p {
+        margin-top: 0px;
+    }
+    .fact-section .fact-text p {   
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .fact-section .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin: 30px 0px;
+    }
+     .fact-section {
+        background-size: cover;
+     }
+     .tesimonials-section {
+        padding: 40px 0px;
+    }
+     .tesimonials-section .testimonial-title img {
+        width: 16%;
+    }
+    .tesimonials-section .testimonial-client h4 {
+        margin-right: 0px;
+    }
+    .tesimonials-section .testimonial-client p{
+        margin-right: 0px;
+    }
+    .tesimonials-section .testimonial-title{
+        margin-top: -25px;
+        margin-bottom: 0px;
+    }
+    .tesimonials-section .testimonial-title img {
+        width: 30%;
+    }
+    .Get-section {
+        padding: 40px 0px 40px 0px;
+    }
+    .Get-section .btn-info {
+        margin-left: 0px;
+    }
+    .footer-section {
+        padding: 40px 0px 0px 0px;
+    }
+    .footer-section .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .footer-section .social-media{
+        margin-bottom: 30px;
+    }
+    .footer-section .social-icons{
+
+    }
+    .footer-section .item {
+        margin: 0px 60px 0px 60px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+    .footer-section .footer-p {
+        text-align: center !important;
+        width: 100%;
+    }
+    .footer-section .item {
+        margin-left: 45px;
+    }
+    .footer-section .footer-p {
+        margin-top: -48px;
+        margin-bottom: 30px;
+    }
+    .footer-section .divider {
+        margin-top: 30px;
+    }
+    .footer-section .social-icons .icons-title {
+        width: 40px;
+        border-radius: 5px;  
+    }
+    .footer-section .social-icons ul li {
+        margin-right: 8px;
+        margin-left: 6px;
+    }
+    .tesimonials-section .web{
+        display: none;
+    }
+    .tesimonials-section .responsive{
+        display: block;
+    }
+}
+/*********************************************
+         For mobile view code end     
+*********************************************/     
